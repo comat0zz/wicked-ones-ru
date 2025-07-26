@@ -1,0 +1,58 @@
+{
+  "id": "wicked-ones-ru",
+  "title": "Wicked Ones",
+  "description": "Это настольная ролевая игра о могущественных лидерах тёмного подземелья, о настоящих злодеях. Они — не пешки на шахматной доске, но игроки, расставляющие фигуры. Несмотря на свою исконную злобность и жестокость, эти беспринципные твари объединены общей целью — процветанием подземелья. Ради этого они готовы пощадить слуг, которых иначе бы убили, и противостоять своим «тёмным порывам» — уникальным порокам, которые то и дело норовят захватить контроль.",
+  "version": "1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Nikita Belov",
+      "email": "comAT0Zz@gmail.com",
+      "flags": {}
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "player": { "htmlFields": ["description"] }
+    },
+    "Item": {
+
+    }
+  },
+  "esmodules": [
+    "esmodules/system.mjs"
+  ],
+  "styles": [
+    "styles/system.css"
+  ],
+  "packs": [
+
+  ],
+  "languages": [
+    {
+      "lang": "ru",
+      "name": "Russian",
+      "path": "lang/ru.json",
+      "flags": {}
+    }
+  ],
+  "media": [
+    {
+      "type": "cover",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "setup",
+      "url": "systems/wicked-ones-ru/assets/cover.png",
+      "thumbnail": "systems/wicked-ones-ru/assets/cover.png"
+    }
+  ],
+  "socket": true,
+  "url": "https://github.com/comat0zz/wicked-ones-ru",
+  "manifest": "https://github.com/comat0zz/wicked-ones-ru/releases/download/vtt13-1.0/system.json",
+  "download": "https://github.com/comat0zz/wicked-ones-ru/releases/download/vtt13-1.0/wicked-ones-ru.zip"
+}
