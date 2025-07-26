@@ -1,4 +1,4 @@
 // Actors
-export {default as PlayerCharacter} from "./PlayerCharacter.mjs";
+export {default as WickedOne} from "./WickedOne.mjs";
 
 // Items

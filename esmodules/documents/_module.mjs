@@ -1,2 +1,2 @@
-export { default as CztActor } from "./CztActor.mjs";
-export { default as CztItem } from "./CztItem.mjs";
+export { default as BaseActor } from "./BaseActor.mjs";
+export { default as BaseItem } from "./BaseItem.mjs";

@@ -29,12 +29,12 @@ Hooks.once("init", async function() {
     documents,
   }
 
-  CONFIG.Actor.documentClass = documents.CztActor;
+  CONFIG.Actor.documentClass = documents.BaseActor;
   CONFIG.Actor.dataModels = {
     hero: models.CztActor
   };
 
-  CONFIG.Item.documentClass = documents.CztItem;
+  CONFIG.Item.documentClass = documents.BaseItem;
   CONFIG.Item.dataModels = {
     equipment: models.CztItem,
     skill: models.CztSkill
