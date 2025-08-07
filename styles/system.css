@@ -6,98 +6,98 @@
   font-family: "Bitter";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
 }
 /* bitter-500 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
 }
 /* bitter-600 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
 }
 /* bitter-700 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
 }
 /* bitter-800 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
 }
 /* bitter-900 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
 }
 /* bitter-italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
 }
 /* bitter-500italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
 }
 /* bitter-600italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
 }
 /* bitter-700italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
 }
 /* bitter-800italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
 }
 /* bitter-900italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
 }
 /* Blood crow-regular - latin */
 @font-face {
   font-family: "Blood Crow";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bloodcrow.ttf") format("truetype");
+  src: local(""), url("./fonts/bloodcrow.ttf") format("truetype");
 }
 /* piedra-regular - latin */
 @font-face {
   font-family: "Piedra";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/piedra-v9-latin-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/piedra-v9-latin-regular.woff2") format("woff2");
 }
 /* 
 *  Elements that can be changed will hint this by dimming and fading a little on hover
@@ -144,98 +144,98 @@
   font-family: "Bitter";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
 }
 /* bitter-500 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
 }
 /* bitter-600 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
 }
 /* bitter-700 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
 }
 /* bitter-800 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
 }
 /* bitter-900 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
 }
 /* bitter-italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
 }
 /* bitter-500italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
 }
 /* bitter-600italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
 }
 /* bitter-700italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
 }
 /* bitter-800italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
 }
 /* bitter-900italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
 }
 /* Blood crow-regular - latin */
 @font-face {
   font-family: "Blood Crow";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bloodcrow.ttf") format("truetype");
+  src: local(""), url("./fonts/bloodcrow.ttf") format("truetype");
 }
 /* piedra-regular - latin */
 @font-face {
   font-family: "Piedra";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/piedra-v9-latin-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/piedra-v9-latin-regular.woff2") format("woff2");
 }
 /* 
 *  Elements that can be changed will hint this by dimming and fading a little on hover
@@ -1180,98 +1180,98 @@ form.wicked-one-sheet #duties-table tbody td:nth-of-type(1) {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
 }
 /* bitter-500 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
 }
 /* bitter-600 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
 }
 /* bitter-700 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
 }
 /* bitter-800 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
 }
 /* bitter-900 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
 }
 /* bitter-italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
 }
 /* bitter-500italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
 }
 /* bitter-600italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
 }
 /* bitter-700italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
 }
 /* bitter-800italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
 }
 /* bitter-900italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
 }
 /* Blood crow-regular - latin */
 @font-face {
   font-family: "Blood Crow";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bloodcrow.ttf") format("truetype");
+  src: local(""), url("./fonts/bloodcrow.ttf") format("truetype");
 }
 /* piedra-regular - latin */
 @font-face {
   font-family: "Piedra";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/piedra-v9-latin-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/piedra-v9-latin-regular.woff2") format("woff2");
 }
 /* 
 *  Elements that can be changed will hint this by dimming and fading a little on hover
@@ -1385,98 +1385,98 @@ form.minion-sheet #abilities-list .item-rollable-text {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
 }
 /* bitter-500 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
 }
 /* bitter-600 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
 }
 /* bitter-700 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
 }
 /* bitter-800 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
 }
 /* bitter-900 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
 }
 /* bitter-italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
 }
 /* bitter-500italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
 }
 /* bitter-600italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
 }
 /* bitter-700italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
 }
 /* bitter-800italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
 }
 /* bitter-900italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
 }
 /* Blood crow-regular - latin */
 @font-face {
   font-family: "Blood Crow";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bloodcrow.ttf") format("truetype");
+  src: local(""), url("./fonts/bloodcrow.ttf") format("truetype");
 }
 /* piedra-regular - latin */
 @font-face {
   font-family: "Piedra";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/piedra-v9-latin-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/piedra-v9-latin-regular.woff2") format("woff2");
 }
 /* 
 *  Elements that can be changed will hint this by dimming and fading a little on hover
@@ -1628,98 +1628,98 @@ form.dungeon-sheet #masterplan > div:first-child {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
 }
 /* bitter-500 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
 }
 /* bitter-600 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
 }
 /* bitter-700 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
 }
 /* bitter-800 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
 }
 /* bitter-900 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
 }
 /* bitter-italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
 }
 /* bitter-500italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
 }
 /* bitter-600italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
 }
 /* bitter-700italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
 }
 /* bitter-800italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
 }
 /* bitter-900italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
 }
 /* Blood crow-regular - latin */
 @font-face {
   font-family: "Blood Crow";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bloodcrow.ttf") format("truetype");
+  src: local(""), url("./fonts/bloodcrow.ttf") format("truetype");
 }
 /* piedra-regular - latin */
 @font-face {
   font-family: "Piedra";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/piedra-v9-latin-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/piedra-v9-latin-regular.woff2") format("woff2");
 }
 /* 
 *  Elements that can be changed will hint this by dimming and fading a little on hover
@@ -1984,98 +1984,98 @@ form.faction-sheet #faction-sheet .editor, form.faction-sheet #faction-sheet .ed
   font-family: "Bitter";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
 }
 /* bitter-500 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
 }
 /* bitter-600 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
 }
 /* bitter-700 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
 }
 /* bitter-800 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
 }
 /* bitter-900 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
 }
 /* bitter-italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
 }
 /* bitter-500italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
 }
 /* bitter-600italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
 }
 /* bitter-700italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
 }
 /* bitter-800italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
 }
 /* bitter-900italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
 }
 /* Blood crow-regular - latin */
 @font-face {
   font-family: "Blood Crow";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bloodcrow.ttf") format("truetype");
+  src: local(""), url("./fonts/bloodcrow.ttf") format("truetype");
 }
 /* piedra-regular - latin */
 @font-face {
   font-family: "Piedra";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/piedra-v9-latin-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/piedra-v9-latin-regular.woff2") format("woff2");
 }
 /* 
 *  Elements that can be changed will hint this by dimming and fading a little on hover
@@ -2343,98 +2343,98 @@ form.faction-ua-sheet #faction-sheet .editor, form.faction-ua-sheet #faction-she
   font-family: "Bitter";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
 }
 /* bitter-500 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
 }
 /* bitter-600 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
 }
 /* bitter-700 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
 }
 /* bitter-800 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
 }
 /* bitter-900 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
 }
 /* bitter-italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
 }
 /* bitter-500italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
 }
 /* bitter-600italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
 }
 /* bitter-700italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
 }
 /* bitter-800italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
 }
 /* bitter-900italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
 }
 /* Blood crow-regular - latin */
 @font-face {
   font-family: "Blood Crow";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bloodcrow.ttf") format("truetype");
+  src: local(""), url("./fonts/bloodcrow.ttf") format("truetype");
 }
 /* piedra-regular - latin */
 @font-face {
   font-family: "Piedra";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/piedra-v9-latin-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/piedra-v9-latin-regular.woff2") format("woff2");
 }
 /* 
 *  Elements that can be changed will hint this by dimming and fading a little on hover
@@ -2662,98 +2662,98 @@ form.party-sheet .trait-tags label.motivation {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
 }
 /* bitter-500 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
 }
 /* bitter-600 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
 }
 /* bitter-700 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
 }
 /* bitter-800 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
 }
 /* bitter-900 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
 }
 /* bitter-italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
 }
 /* bitter-500italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
 }
 /* bitter-600italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
 }
 /* bitter-700italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
 }
 /* bitter-800italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
 }
 /* bitter-900italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
 }
 /* Blood crow-regular - latin */
 @font-face {
   font-family: "Blood Crow";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bloodcrow.ttf") format("truetype");
+  src: local(""), url("./fonts/bloodcrow.ttf") format("truetype");
 }
 /* piedra-regular - latin */
 @font-face {
   font-family: "Piedra";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/piedra-v9-latin-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/piedra-v9-latin-regular.woff2") format("woff2");
 }
 /* 
 *  Elements that can be changed will hint this by dimming and fading a little on hover
@@ -2823,98 +2823,98 @@ form.clock-block #clock-notes .editor .editor-content {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
 }
 /* bitter-500 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
 }
 /* bitter-600 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
 }
 /* bitter-700 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
 }
 /* bitter-800 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
 }
 /* bitter-900 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
 }
 /* bitter-italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
 }
 /* bitter-500italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
 }
 /* bitter-600italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
 }
 /* bitter-700italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
 }
 /* bitter-800italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
 }
 /* bitter-900italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
 }
 /* Blood crow-regular - latin */
 @font-face {
   font-family: "Blood Crow";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bloodcrow.ttf") format("truetype");
+  src: local(""), url("./fonts/bloodcrow.ttf") format("truetype");
 }
 /* piedra-regular - latin */
 @font-face {
   font-family: "Piedra";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/piedra-v9-latin-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/piedra-v9-latin-regular.woff2") format("woff2");
 }
 /* 
 *  Elements that can be changed will hint this by dimming and fading a little on hover
@@ -3053,98 +3053,98 @@ form.gm-sheet #project-clocks-table tr td:nth-of-type(4) {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
 }
 /* bitter-500 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
 }
 /* bitter-600 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
 }
 /* bitter-700 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
 }
 /* bitter-800 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
 }
 /* bitter-900 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
 }
 /* bitter-italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
 }
 /* bitter-500italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
 }
 /* bitter-600italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
 }
 /* bitter-700italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
 }
 /* bitter-800italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
 }
 /* bitter-900italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
 }
 /* Blood crow-regular - latin */
 @font-face {
   font-family: "Blood Crow";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bloodcrow.ttf") format("truetype");
+  src: local(""), url("./fonts/bloodcrow.ttf") format("truetype");
 }
 /* piedra-regular - latin */
 @font-face {
   font-family: "Piedra";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/piedra-v9-latin-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/piedra-v9-latin-regular.woff2") format("woff2");
 }
 /* 
 *  Elements that can be changed will hint this by dimming and fading a little on hover
@@ -3312,98 +3312,98 @@ form.conquest-sheet table.candle img {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
 }
 /* bitter-500 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
 }
 /* bitter-600 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
 }
 /* bitter-700 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
 }
 /* bitter-800 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
 }
 /* bitter-900 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
 }
 /* bitter-italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
 }
 /* bitter-500italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
 }
 /* bitter-600italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
 }
 /* bitter-700italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
 }
 /* bitter-800italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
 }
 /* bitter-900italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
 }
 /* Blood crow-regular - latin */
 @font-face {
   font-family: "Blood Crow";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bloodcrow.ttf") format("truetype");
+  src: local(""), url("./fonts/bloodcrow.ttf") format("truetype");
 }
 /* piedra-regular - latin */
 @font-face {
   font-family: "Piedra";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/piedra-v9-latin-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/piedra-v9-latin-regular.woff2") format("woff2");
 }
 /* 
 *  Elements that can be changed will hint this by dimming and fading a little on hover
@@ -3800,98 +3800,98 @@ form.conquest-sheet table.candle img {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
 }
 /* bitter-500 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
 }
 /* bitter-600 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
 }
 /* bitter-700 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
 }
 /* bitter-800 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
 }
 /* bitter-900 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
 }
 /* bitter-italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
 }
 /* bitter-500italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
 }
 /* bitter-600italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
 }
 /* bitter-700italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
 }
 /* bitter-800italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
 }
 /* bitter-900italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
 }
 /* Blood crow-regular - latin */
 @font-face {
   font-family: "Blood Crow";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bloodcrow.ttf") format("truetype");
+  src: local(""), url("./fonts/bloodcrow.ttf") format("truetype");
 }
 /* piedra-regular - latin */
 @font-face {
   font-family: "Piedra";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/piedra-v9-latin-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/piedra-v9-latin-regular.woff2") format("woff2");
 }
 /* 
 *  Elements that can be changed will hint this by dimming and fading a little on hover
@@ -4008,98 +4008,98 @@ form.special-ability-sheet #ray-selection div.ray-line select:nth-child(2) {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
 }
 /* bitter-500 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
 }
 /* bitter-600 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
 }
 /* bitter-700 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
 }
 /* bitter-800 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
 }
 /* bitter-900 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
 }
 /* bitter-italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
 }
 /* bitter-500italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
 }
 /* bitter-600italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
 }
 /* bitter-700italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
 }
 /* bitter-800italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
 }
 /* bitter-900italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
 }
 /* Blood crow-regular - latin */
 @font-face {
   font-family: "Blood Crow";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bloodcrow.ttf") format("truetype");
+  src: local(""), url("./fonts/bloodcrow.ttf") format("truetype");
 }
 /* piedra-regular - latin */
 @font-face {
   font-family: "Piedra";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/piedra-v9-latin-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/piedra-v9-latin-regular.woff2") format("woff2");
 }
 /* 
 *  Elements that can be changed will hint this by dimming and fading a little on hover
@@ -4307,98 +4307,98 @@ form.special-ability-sheet #ray-selection div.ray-line select:nth-child(2) {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-regular.woff2") format("woff2");
 }
 /* bitter-500 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500.woff2") format("woff2");
 }
 /* bitter-600 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600.woff2") format("woff2");
 }
 /* bitter-700 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700.woff2") format("woff2");
 }
 /* bitter-800 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800.woff2") format("woff2");
 }
 /* bitter-900 - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900.woff2") format("woff2");
 }
 /* bitter-italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 400;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-italic.woff2") format("woff2");
 }
 /* bitter-500italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 500;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-500italic.woff2") format("woff2");
 }
 /* bitter-600italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 600;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-600italic.woff2") format("woff2");
 }
 /* bitter-700italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 700;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-700italic.woff2") format("woff2");
 }
 /* bitter-800italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 800;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-800italic.woff2") format("woff2");
 }
 /* bitter-900italic - latin_cyrillic */
 @font-face {
   font-family: "Bitter";
   font-style: italic;
   font-weight: 900;
-  src: local(""), url("../fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
+  src: local(""), url("./fonts/bitter-v16-latin_cyrillic-900italic.woff2") format("woff2");
 }
 /* Blood crow-regular - latin */
 @font-face {
   font-family: "Blood Crow";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/bloodcrow.ttf") format("truetype");
+  src: local(""), url("./fonts/bloodcrow.ttf") format("truetype");
 }
 /* piedra-regular - latin */
 @font-face {
   font-family: "Piedra";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/piedra-v9-latin-regular.woff2") format("woff2");
+  src: local(""), url("./fonts/piedra-v9-latin-regular.woff2") format("woff2");
 }
 /* 
 *  Elements that can be changed will hint this by dimming and fading a little on hover
