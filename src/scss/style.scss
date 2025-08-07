@@ -1,0 +1,650 @@
+// Imports
+@import 'variables.scss';
+@import 'fonts.scss';
+@import 'mixin.scss';
+
+@import 'actor-sheet.scss';
+@import 'minion-sheet.scss';
+@import 'dungeon-sheet.scss';
+@import 'faction-sheet.scss';
+@import 'faction-ua-sheet.scss';
+@import 'party-sheet.scss';
+@import 'clock-sheet.scss';
+@import 'gm-sheet.scss';
+@import 'conquest-sheet.scss';
+
+@import 'attributes.scss';
+@import 'item-sheets.scss';
+@import 'chat.scss';
+@import 'dialogs.scss';
+
+
+/*
+ *   Layout Styles
+ */
+
+.sheet {
+	min-width: min-content;
+}
+
+ /* WO-Borders for windows and sheets*/
+.window-app .window-content {
+    background: url("../assets/images/background-light.webp") repeat;
+    color: $almost_black;
+    overflow-y: auto;
+	
+	background: url("../assets/decorations/border-left.png"), url("../assets/decorations/border-right.png"),url("../assets/images/background-light.webp");
+	background-repeat: repeat-y, repeat-y, repeat;
+	background-size: 70px, 70px, 300px;
+	background-position: left, right, bottom;
+
+
+    form.actor-sheet {
+        z-index: 0;
+        padding: 20px 12px;
+    }
+}
+ /* Overlay-Style for visibility for dialogs (else borders disrupt readability) */
+.dialog-content {
+    background-color: #fffaf096;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 7px #fffaf096;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+
+    > form:last-child {
+        margin-right: 0px;
+    }
+
+    .grow-one {
+        flex-grow: 1;
+    }
+
+    .grow-two {
+        flex-grow: 2;
+    }
+}
+
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+// Basic Character Information Table for Wicked One and Minion Pack
+table.base-info {
+    border-top: 5px solid $mud;
+
+    tr {
+
+        td:nth-of-type(1) {
+            min-width: 150px;
+        }
+
+        .item-add-popup {
+            color: $mud;
+        }
+
+        // TO DO: Make standard across sheets?
+        .text-input {
+            color: $mud;
+
+            label {
+                font-weight: 700;
+            }
+
+            input {
+                font-weight: normal;
+                font-family: Piedra;
+                font-size: 20px;
+                border: none;
+                border-radius: 0;
+            }
+        }
+    }
+}
+
+
+/*
+ *   Navigation Styles
+ */
+
+nav {
+    margin-bottom: 10px;
+}
+
+// Nav container margin to attributes
+.tab-content {
+    margin-right: 8px;
+
+    // Remove line-breaks from nav elements
+    nav a {
+        flex: none;
+    }
+
+    .tab {
+
+        .label-stripe {
+            margin-bottom: 0px;
+        }
+
+        table {
+            margin-top: 0px;
+            border: 0px;
+        }
+    }
+}
+
+// Highlight selected tab
+.tabs .item.active {
+    font-weight: 700;
+    color: $bloody;
+    text-shadow: 2px 2px 7px $orange;
+}
+
+
+/*
+ *   Element Styles
+ */
+
+body {
+    font-family: Bitter, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+	background: url("../assets/images/WO-Background.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+// All Table Formatting:
+table {
+    width: 100.1%;
+
+    th {
+        &:hover {
+            .item-add-popup {
+                transition: opacity 0.5s;
+                opacity: 1;
+            }
+        }
+
+        .item-add-popup {
+            transition: opacity 0.5s;
+            opacity: $add-opacity;
+        }
+    }
+
+    tr:nth-child(even) {
+        background-color: initial;
+    }
+
+    td, th {
+        padding: 5px;
+    }
+
+    td:first-child {
+        padding-left: 5px;
+    }
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+.item-checkmark{
+	font-weight: 700;
+}
+
+select {
+    font-family: Bitter, Lucida Console, monospace;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 0px;
+    border: 1px solid $mud;
+}
+
+option {
+    font-weight: 600;
+}
+
+input[type="text"], input[type="number"], input[type="password"],
+input[type="date"], input[type="time"],   input[type="range"] {
+    font-weight: 600;
+    border: 1px solid $mud;
+    border-radius: 0;
+    width: 100%
+}
+
+.text-input {
+    color: $mud;
+
+    label {
+        font-weight: 700;
+    }
+
+    input[type="text"], input[type="number"], input[type="password"],
+    input[type="date"], input[type="time"],   input[type="range"] {
+        font-weight: normal;
+        font-family: Piedra;
+        font-size: 20px;
+        border: none;
+        border-radius: 0;
+    }
+}
+
+textarea {
+    color: $bloody;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Bitter;
+    font-weight: 600;
+    min-height: 80px;
+    resize: none;
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    > div {
+        margin-left: 20px;
+    }
+}
+
+.standard-checkbox {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    label {
+        @include custom-label("../assets/boxes/box-empty.png", 24px, 24px);
+        margin-right: 5px;
+    }
+
+    input[type="checkbox"]:checked + label {
+        background-image: url("../assets/boxes/box-crossed.png");
+    }
+}
+
+
+/*
+ *   Button Styles
+ */
+
+%button-base {
+    background: $mud;
+    border-top: 1px outset $orange;
+    border-bottom: 2px outset $orange;
+    border-left: 2px solid darkslategrey;
+    border-right: 2px solid darkslategrey;
+
+    &:hover, &:focus {
+        outline: none;
+        box-shadow: 0 0 5px $orange;
+        background: $orange;
+    }
+
+    &:disabled {
+        outline: none;
+        border-top: 1px outset $gray;
+        border-bottom: 2px outset $gray;
+        box-shadow: none;
+        background: $gray;
+    }
+}
+
+// TO DO: Maybe move properties to base & use button as base
+button {
+    @extend %button-base;
+    font-family: Bitter, sans-serif;
+    font-weight: 500;
+    color: $bone;
+    transition-duration: $transition-period;
+}
+
+.dialog .dialog-buttons button {
+    @extend %button-base;
+}
+
+// TO DO: Evaluate if needed
+* * form button {
+    @extend %button-base;
+}
+
+.dialog .dialog-buttons button.default {
+    @extend %button-base;
+}
+
+
+/*
+ *  Label Styles
+ */
+
+.label-stripe {
+    text-transform: uppercase;
+    background-color: $mud;
+    color: $almost_white;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: medium;
+
+    &:hover {
+        .item-add-popup {
+            transition: opacity 0.5s;
+            opacity: 1;
+        }
+    }
+
+    .item-add-popup {
+        transition: opacity 0.5s;
+        opacity: $add-opacity;
+    }
+}
+
+.black-label {
+    background-color: $mud;
+    color: $almost_white;
+    font-size: 18px;
+    text-align: center;
+    padding: 4px 5px;
+    height: 30px !important;
+    text-transform: capitalize;
+    text-shadow: 0 2px $darkmud;
+}
+
+
+/*
+ *  Name & Profile Picture Style
+ */
+
+.large-name input[type="text"] {
+    min-width: 370px;
+    height: 52px;
+    border: none;
+    font-family: Blood Crow;
+    font-size: 55px;
+    font-weight: normal;
+    color: $mud;
+    background: none;
+    text-shadow: 0 1px 2px $orange;
+    text-overflow: ellipsis;
+}
+
+.profile-img {
+    border: none;
+    // background: url(../assets/images/background-light.webp) repeat $bloodyShadow;
+    background-blend-mode: color-burn;
+    object-fit: cover;
+
+    &.profile-big {
+        margin: 0px 5px;
+        height: 200px;
+        width: 200px;
+        max-width: fit-content;
+    }
+}
+
+
+/*
+ *  Clock Styles
+ */
+
+label.clock-zero-label {
+    color: $almost_black;
+
+    i.nullifier {
+        @include changeable($transition-period, $hover-brightness, $hover-opacity, $highlight_red);
+    }
+}
+
+.clock-block {
+    .clocks {
+        &.clocks-4 {
+            @include clock(4, 200);
+        }
+
+        &.clocks-6 {
+            @include clock(6, 200);
+        }
+
+        &.clocks-8 {
+            @include clock(8, 200);
+        }
+    }
+
+    .blades-clock-name-type {
+
+        > * {
+            margin-bottom: 10px;
+            max-width: 220px;
+        }
+    }
+}
+
+
+/*
+ *  Item Styles
+ */
+
+// Item Add Buttons
+.item-add-popup {
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.item {
+
+    .item-open-editor {
+        cursor: pointer;
+        @include changeable($transition-period,$hover-brightness, $hover-opacity );
+    }
+
+    .item-description {
+        font-style: italic;
+        text-align: justify;
+    }
+
+    // Display all Item Names in Bold
+    .item-name {
+        text-align: center;
+        font-weight: 500;
+        font-family: Piedra;
+        font-size: 20px;
+        padding: 0px 10px;
+    }
+}
+
+// Show Trash bins on hover over ancestor
+div.item, tr.item {
+
+    &:hover {
+
+        i.fa-trash {
+            transition: opacity 1s;
+            opacity: 0.5;
+        }
+    }
+
+    i.fa-trash {
+        transition: opacity 1s;
+        opacity: 0;
+    }
+}
+
+// Item List in tab for all (Wicked One, Minion Pack, Dungeon Sheet)
+.all-items-list {
+    font-size: 14px;
+
+    &:nth-of-type(2n+1) {
+        background: rgba(0, 0, 0, 0.15);
+    }
+
+    div.item-body {
+        margin: 5px 10px;
+    }
+
+    a.item-delete {
+        margin-right: 10px;
+        align-self: center;
+    }
+}
+
+
+/*
+ *  Other Class Styles
+ */
+
+/* WO Roll Popup Formatting of the Roll Options */
+.action-info {
+	padding: 5px;
+	margin-top: -10px;
+	line-height: 1.5em;
+	
+	#team-up{
+		line-height: 1.1em;
+	}
+}
+
+#pause h3 {
+    font-weight: 600;
+    text-shadow: 0px 3px 0px #68332c;
+}
+
+.hidden {
+    display: none;
+}
+
+// Highlight for elements triggering die rolls
+// TO DO: Maybe use changeable
+.rollable-text {
+    transition: color $transition-period;
+
+    &:hover {
+        cursor: pointer;
+        color: $highlight_red;
+    }
+}
+
+// Minimum Size for TinyMCE Editor Box
+// TO DO: Reduce size?
+.editor,
+.editor-content {
+    min-height: 280px;
+    background: rgba(0,0,0,0.05);
+	padding: 10px;
+}
+
+// Styling for opened compendia and directories
+.compendium .directory-list .directory-item {
+    padding: 3px 0;
+    line-height: 48px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid $bloody5c;
+    box-shadow: none;
+}
+
+#pause img {
+    content:url("../assets/decorations/pause-logo.webp")
+}
+// Styling for menu entries like Game Settings
+form .notes, form .hint {
+    font-weight: 600;
+}
+form .form-group label {
+    font-weight: 700;
+}
+ /* Global Tab Style Formatting */
+
+nav.tabs.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: space-between;
+    margin: 0;
+	
+	& .item {
+		text-align: center;
+		color: black;
+		background-color:#8080803d;
+		line-height: 2rem;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+		margin: 0px 2px;
+		box-shadow: inset 0 2px 3px 0px $mud;
+		flex: auto;
+	}
+
+	& .item.active {
+		font-weight: 700;
+		color: white;
+		background-color: $mud;
+		box-shadow: none;
+	}
+	
+	& > :first-child {
+		margin-left: 0;
+	}
+
+	& > :last-child {
+		margin-right: 0;
+	}
+}
+
+
+/*
+ *  Tooltip Styles
+ */
+
+#wo-tooltip {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    width: fit-content;
+    max-width: 400px;
+    font-weight: 600;
+    font-family: Bitter;
+    background: url(../assets/images/background-light.webp) repeat;
+    color: $bloody;
+    font-size: 16px;
+    text-align: justify;
+    border: 2px solid $bloody;
+    padding: 10px;
+    border-radius: 4px;
+    z-index: 9999;
+    text-transform: none;
+    text-shadow: none;
+
+    &.show {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0.5s, opacity 0.5s;
+    transition-delay: 1s;
+
+        &.quick {
+            transition: visibility 0.2s, opacity 0.2s;
+            transition-delay: 0.3s;
+        }
+    }
+}
+
+

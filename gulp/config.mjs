@@ -12,6 +12,9 @@ export const config = {
   isDevelopment: isDevelopment,
   systemVTT: systemVTT,
 
+  templates: `${rootFldr}/templates/`,
+  tplExts: ['hbs','html','htm'],
+
   build: {
     styles: `${rootFldr}/styles/`,
     packs:  `${rootFldr}/packs/`,
@@ -20,7 +23,7 @@ export const config = {
   },
 
   src: {
-    styles: `${srcFldr}/sass/`,
+    styles: `${srcFldr}/scss/`,
     fonts:  `${srcFldr}/fonts/`,
     packs:  `${srcFldr}/packs/`,
     langs:  `${srcFldr}/langs/`,
@@ -28,7 +31,7 @@ export const config = {
   },
 
   watch: {
-    css:    `${srcFldr}/sass/**/*.sass`,
+    css:    `${srcFldr}/scss/**/*.scss`,
     langs:  `${srcFldr}/langs/**/*.json`
   }
 };

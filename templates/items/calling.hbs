@@ -1,0 +1,24 @@
+<form class="{{cssClass}} item-sheet calling-sheet" autocomplete="off">
+  <header class="sheet-header">
+      <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}"/>
+      <div class="header-fields">
+          <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="{{localize 'FITD.Name'}}"/></h1>
+      </div>
+  </header>
+  
+  <section class="flex-vertical">
+    <label class="label-stripe">{{localize "FITD.Description"}}</label>
+    <textarea name="system.description" placeholder="{{localize "FITD.DescriptionHint"}}">{{system.description}}</textarea>
+    <label class="label-stripe">{{localize "FITD.FlashbackClues"}}</label>
+    <textarea name="system.flashback_clues">{{system.flashback_clues}}</textarea>
+  </section>
+
+  <section class="flex-vertical">
+    <label class="label-stripe">{{localize "FITD.IsUACalling"}}</label>
+    <div>
+      <input type="checkbox" name="system.is_ua_calling" {{checked system.is_ua_calling}}>
+      <label>{{localize "FITD.IsUACallingHint"}}</label>
+    </div>
+  </section>
+
+</form>

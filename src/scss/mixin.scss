@@ -1,0 +1,339 @@
+// Imports
+@import 'variables.scss';
+
+
+/* 
+*  Elements that can be changed will hint this by dimming and fading a little on hover
+*/
+
+@mixin changeable($transition-period, $hover-brightness, $hover-opacity, $hover-color: null) {
+  transition: filter $transition-period;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness($hover-brightness);
+    opacity: $hover-opacity;
+    @if $hover-color {
+      color: $hover-color;
+    }
+  }
+}
+
+
+/*
+ * Toothradio. Some (eg trauma) are not changeable, hence the option.
+ */
+
+@mixin toothradio($width, $height, $unchecked_background, $checked_background, $changeable: true) {
+
+  display: flex;
+
+  label {
+
+    & {
+      height: $height;
+      width: $width;
+      background-image: url($checked_background);
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-right: 5px;
+  
+      &:last-of-type {
+        margin-right: 0px;
+      }
+      &[for$="-0"] {
+        width: auto;
+        height: auto;
+        background-image: none !important;
+        color: $almost_white;
+
+        i {
+          margin-top: 4px;
+        }
+      }
+
+      @if $changeable {
+        @include changeable(0.1s, 0.8, 0.9);
+      }
+      @else {
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  /* Hide the browser's default checkbox */
+  input {
+  
+    display: none;
+  
+    &:checked {
+  
+      & ~ label {
+        background-image: url($unchecked_background);
+      }
+      & + label {
+        background-image: url($checked_background);
+      }
+    }
+  }
+}
+
+
+/*
+ * Dark Hearts Glow
+ */
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px 5px rgba(104, 51, 44, 0.3),inset 0 0 5px 5px rgba(104, 51, 44, 0.3);
+	border-radius: 5px;
+  }
+  100% {
+    box-shadow: 0 0 15px 3px rgba(104, 51, 144, 0.8),inset 0 0 8px 3px rgba(104, 51, 144, 0.6);
+	border-radius: 11px;
+  }
+}
+
+
+/*
+ * Custom Radio
+ */
+
+@mixin custom_radio($width, $height) {
+    display: flex;
+    $default_color: $almost_white;
+    $accent_color: $almost_black;
+    $circle_border_color: $almost_black;
+
+    label {
+
+        & {
+            height: $height;
+            width: $width;
+            background-image: url("../assets/boxes/box-filled.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            vertical-align: middle;
+
+            /*
+            &.dark-heart {
+                background-image: url("../assets/boxes/heart-filled.png");
+                margin-right: 4px;
+                position: relative;
+                top: -2px;
+            }
+
+            */
+
+            &[for$="-0"] {
+                height: 8px;
+                width: 8px;
+                border-radius: 24px;
+                opacity: 0;
+                transition: opacity 1s;
+                background-image: none !important;
+                background-color: $highlight_red !important;
+                margin-right: 0px;
+            }
+
+            @include changeable(0.1s, 0.7, 0.7);
+        }
+    }
+    /* Hide the browser's default checkbox */
+    input {
+        display: none;
+
+        &:checked {
+
+            & ~ label {
+                background-image: url("../assets/boxes/box-empty.png");
+
+                &.dark-heart {
+                    background-image: url("../assets/boxes/heart-empty.png");
+                }
+            }
+
+
+            & + label {
+                // Less opacity here cos otherwise it's barely visible on the dark
+                @include changeable(0.1s, 0.7, 0.7);
+                background-image: url("../assets/boxes/box-filled.png");
+
+                /*
+                &.dark-heart {
+                    // animation: glow 2000ms ease-out infinite alternate;
+                    background-image: url("../assets/boxes/heart-filled.png");
+                }*/
+
+                &.practice-one {
+                    background-image: url("../assets/boxes/box-slashed.png");
+                }
+
+                &.practice-two {
+                    background-image: url("../assets/boxes/box-crossed.png");
+                }
+            }
+        }
+    }
+}
+
+
+/*
+ * Create Clock
+ */
+
+@mixin clock($segments, $size, $default_color:null, $accent_color:null) {
+
+  $angle: 360 / $segments;
+  $skew: 90 + $angle;
+  $border_width: 3;
+
+  position: relative;
+
+  .blades-clock {
+
+    position: relative;
+    @if $default_color {
+      border: #{$border_width}px solid $almost_black;
+    }
+    padding: 0;
+    width: #{$size}px;
+    height: #{$size}px;
+    border-radius: 50%;
+    list-style: none;
+    overflow: hidden;
+    background-size: cover;
+
+    label {
+      overflow: hidden;
+      position: absolute;
+      top: -50%;
+      right: -50%;
+      width: 100%;
+      height: 100%;
+      transform-origin: 0% 100%;
+      background-color: $accent_color;
+
+      @include changeable(0.1s, 0.8, 0.9);
+    }
+
+    input {
+      position: absolute;
+      display: none;
+
+      &:checked {
+        & ~ label {
+          @if $default_color {
+            background-color: $default_color;
+          }
+        }
+        & + label {
+          @if $accent_color {
+            background-color: $accent_color;
+          }
+        }
+      }
+    }
+
+    // Zero value to clear everything.
+    input[value="0"] {
+      display: none;
+    }
+
+    @for $i from 1 through $segments {
+
+      $rotate_angle: $angle * ($i - 1);
+      *:nth-child(#{$i * 2 + 1}) {
+        transform: rotate(#{$rotate_angle}deg) skewY(#{$skew}deg);
+      }
+    }
+  }
+
+}
+
+
+/*
+ * Custom Radio Round
+ */
+
+ @mixin custom_radio_round($diameter, $circle_border_color, $default_color, $accent_color) {
+
+  display: flex;
+
+  label {
+    @include changeable(0.1s, 0.8, 0.9);
+    &:not([for$="-0"]) {
+      height: $diameter;
+      width: $diameter;
+      background-color: $accent_color;
+
+      vertical-align: middle;
+      border: 2px solid $accent_color;
+      border-radius: $diameter / 2;
+    }
+  }
+
+  /* Hide the browser's default checkbox */
+  input {
+    display: none;
+  
+    &:checked {
+      & ~ label:not([for$="-0"]) {
+        border-color: $circle_border_color;
+        background-color: $default_color;
+      }
+      & + label:not([for$="-0"]) {
+        background-color: $accent_color;
+        border-color: $accent_color;
+      }
+    }
+  }
+}
+
+
+/*
+ * Custom label for shocked, bloodied, morale, adventurer hearts and a single hireling move
+ */
+
+@mixin custom-label($image: '../assets/boxes/box-empty.png', $height: 24px, $width: 24px, $changeable: true) {
+    height: $height;
+    width: $width;
+    display: block;
+    background-image: url($image);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+
+    @if $changeable {
+        @include changeable(0.1s, 0.8, 0.9);
+    }
+}
+
+
+/* 
+ *  Positioning of children by number
+ */
+
+@mixin child_pos($child_num, $pos_top: 0px, $pos_left: 0px) {
+  
+    &:nth-child(#{$child_num}) {
+        top: $pos_top;
+        left: $pos_left;
+    }
+}
+
+/* 
+ *  Make clock resets invisible unless hovered
+ */
+
+@mixin clock_zero_hover($transition-period: 1s, $hover-opacity: 0.7) {
+        &:hover .clock-zero-label {
+            transition: opacity $transition-period;
+            opacity: $hover-opacity;
+        }
+
+        .clock-zero-label {
+            transition: opacity $transition-period;
+            opacity: 0;
+        }
+}

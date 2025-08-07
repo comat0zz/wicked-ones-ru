@@ -1,0 +1,155 @@
+<form class="{{cssClass}} actor-sheet party-sheet" autocomplete="off">
+
+
+  <section id="adventure-party" class="flex-vertical">
+    <table>
+      <tr>
+        <td id="name" class="large-name">
+            <input type="text" id="party-{{actor._id}}-name" name="name" value="{{actor.name}}">
+        </td>
+        <td>
+          <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="50" width="50" />
+        </td>
+      </tr>
+    </table>
+
+    {{!-- Adventurer Table --}}
+    <div class="label-stripe flex-horizontal">
+      <p>{{localize "FITD.Adventurers"}}</p>
+      <p><a class="item-add-popup" data-item-type="adventurer"><i class="fas fa-plus-square"></i></a></p>
+    </div>
+    <table id="adventurer-list">
+      <thead>
+        <tr>
+          <td>Tier</td>
+          <td>Class</td>
+          <td>Hearts</td>
+          <td>Moves</td>
+          <td>Passive</td>
+          <td>Traits</td>
+          <td>Motivation</td>
+          <td></td>
+        </tr>
+      </thead>
+      <tbody class="draggable-items">
+        {{#each adventurers as |item id|}}
+        {{#if (eq item.type "adventurer")}}
+        {{#if (eq item.system.adventurer_type "adventurer")}}
+        <tr class="item" data-item-id="{{item._id}}">
+          <td class="tier"><label class="item-open-editor">{{item.system.tier}}</label></td>
+          <td class="class-name {{#if (eq item.system.adventurer_class_custom "")}}item-open-editor{{/if}}"><span class="item-open-editor">{{item.system.adventurer_class_custom}}</span></td>
+          <td class="adventurer-hearts">
+            <div class="flex-horizontal">
+              {{#each item.system.hearts as |heart_class heart| }}
+              <label for="adventurer-{{@item._id}}-heart-{{heart}}" class="adv-heart{{#if heart_class}} {{heart_class}}{{/if}}"></label>
+              <input id="adventurer-{{@item._id}}-heart-{{heart}}" type="radio" value="{{heart}}">
+              {{/each }}
+            </div>
+          </td>
+          <td class="moves-radio">
+            <div class="attributes-container item-radio">
+              {{#multiboxes item.system.moves_used}}
+              {{#times_from_0 3}}
+              <input type="radio" id="adventurer-{{@item._id}}-move-{{this}}"
+                      value="{{this}}"
+                      data-property-to-set="moves_used">
+              <label for="adventurer-{{@item._id}}-move-{{this}}"></label>
+              {{/times_from_0}}
+              {{/multiboxes}}
+              <label class="rollable-text roll-die-attribute fas fa-shield" data-roll-attribute="Tier" data-roll-value="{{@item.system.tier}}" data-roll-type="defensive" data-roll-for="{{@item.name}}"></label>
+            </div>
+          </td>
+          <td><label class="item-open-editor">{{item.system.passive}}</label></td>
+          <td class="trait-tags">
+            {{#unless (eq item.system.trait_pos_1_custom "")}}<label class="positive item-open-editor">{{item.system.trait_pos_1_custom}}</label>{{/unless}}
+            {{#unless (eq item.system.trait_pos_2_custom "")}}<label class="positive item-open-editor">{{item.system.trait_pos_2_custom}}</label>{{/unless}}
+            {{#unless (eq item.system.trait_neg_1_custom "")}}<label class="negative item-open-editor">{{item.system.trait_neg_1_custom}}</label>{{/unless}}
+            {{#unless (eq item.system.trait_neg_2_custom "")}}<label class="negative item-open-editor">{{item.system.trait_neg_2_custom}}</label>{{/unless}}
+          </td>
+          <td class="trait-tags">
+            {{#unless (eq item.system.motivation_1_custom "")}}<label class="motivation item-open-editor">{{item.system.motivation_1_custom}}</label>{{/unless}}
+            {{#unless (eq item.system.motivation_2_custom "")}}<label class="motivation item-open-editor">{{item.system.motivation_2_custom}}</label>{{/unless}}
+          </td>
+          <td><a class="item-control item-delete" title="{{localize 'FITD.TitleDeleteItem'}}"><i class="fas fa-trash"></i></a></td>
+        </tr>
+        {{/if}}
+        {{/if}}
+        {{/each}}
+      </tbody>
+    </table>
+
+    {{!-- Hireling Table --}}
+    <div class="label-stripe flex-horizontal">
+      <p>{{localize "FITD.Hirelings"}}</p>
+      <p><a class="item-add-popup" data-item-type="adventurer"><i class="fas fa-plus-square"></i></a></p>
+    </div>
+    <table id="hireling-list">
+      <thead>
+        <tr>
+          <td>Type</td>
+          <td>Heart</td>
+          <td>Move</td>
+          <td>Passive</td>
+          <td>Traits</td>
+          <td>Motivation</td>
+          <td></td>
+        </tr>
+      </thead>
+      <tbody class="draggable-items">
+        {{#each hirelings as |item id|}}
+        {{#if (eq item.type "adventurer")}}
+        {{#if (eq item.system.adventurer_type "hireling")}}
+        <tr class="item" data-item-id="{{item._id}}">
+          <td class="type-name {{#if (eq item.system.hireling_type_custom "")}}item-open-editor{{/if}}"><span class="item-open-editor">{{item.system.hireling_type_custom}}</span></td>
+          <td class="adventurer-hearts">
+            <div class="flex-horizontal">
+              {{#each item.system.hearts as |heart_class heart| }}
+              <label for="adventurer-{{@item._id}}-heart-{{heart}}" class="adv-heart{{#if heart_class}} {{heart_class}}{{/if}}"></label>
+              <input id="adventurer-{{@item._id}}-heart-{{heart}}" type="radio" value="{{heart}}">
+              {{/each }}
+            </div>
+          </td>
+          <td class="moves-radio">
+          {{#if (eq item.system.passive "")}}
+            <div class="attributes-container item-radio">
+              {{#multiboxes item.system.moves_used}}
+              {{#times_from_0 1}}
+              <input type="radio" id="adventurer-{{@item._id}}-move-{{this}}"
+                     value="{{this}}"
+                     data-property-to-set="moves_used">
+              <label for="adventurer-{{@item._id}}-move-{{this}}"></label>
+              {{/times_from_0}}
+              {{/multiboxes}}
+            </div>
+          {{else}}
+            <label class="adv-move-greyed"></label>
+          {{/if}}
+          </td>
+          <td><label class="item-open-editor">{{item.system.passive}}</label></td>
+          <td class="trait-tags">
+            {{#unless (eq item.system.trait_pos_1_custom "")}}<label class="positive item-open-editor">{{item.system.trait_pos_1_custom}}</label>{{/unless}}
+            {{#unless (eq item.system.trait_pos_2_custom "")}}<label class="positive item-open-editor">{{item.system.trait_pos_2_custom}}</label>{{/unless}}
+            {{#unless (eq item.system.trait_neg_1_custom "")}}<label class="negative item-open-editor">{{item.system.trait_neg_1_custom}}</label>{{/unless}}
+            {{#unless (eq item.system.trait_neg_2_custom "")}}<label class="negative item-open-editor">{{item.system.trait_neg_2_custom}}</label>{{/unless}}
+          </td>
+          <td class="trait-tags">
+            {{#unless (eq item.system.motivation_1_custom "")}}<label class="motivation item-open-editor">{{item.system.motivation_1_custom}}</label>{{/unless}}
+            {{#unless (eq item.system.motivation_2_custom "")}}<label class="motivation item-open-editor">{{item.system.motivation_2_custom}}</label>{{/unless}}
+          </td>
+          <td><a class="item-control item-delete" title="{{localize 'FITD.TitleDeleteItem'}}"><i class="fas fa-trash"></i></a></td>
+        </tr>
+        {{/if}}
+        {{/if}}
+        {{/each}}
+      </tbody>
+    </table>
+
+    {{!-- Notes --}}
+    <div id="party-notes" class="flex-vertical">
+      <div class="label-stripe">
+        <p>{{localize "FITD.Notes"}}</p>
+      </div>
+      {{editor notes target="system.description" button=true owner=owner editable=editable}}
+    </div>
+  </section>
+</form>

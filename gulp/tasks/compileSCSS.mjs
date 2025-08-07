@@ -2,28 +2,26 @@ import gulp from 'gulp';
 import {config} from '../config.mjs';
 import {plugins} from '../plugins.mjs';
 import autoprefixer from 'gulp-autoprefixer';
-import * as dartSass from 'sass';
+import * as dartSass from 'sass'
 import gulpSass from 'gulp-sass';
-
-const sass = gulpSass(dartSass);
+const sass = gulpSass( dartSass );
 const styleFile = 'system.css';
 
 /**
- * Сборка SASS стилей в CSS
+ * Сборка SCSS стилей в CSS
  * @returns 
  */
-export const compileSASS = () => {
-  return gulp.src(`${config.src.styles}/index.sass`)
+export const compileSCSS = () => {
+  return gulp.src(`${config.src.styles}/style.scss`)
     .on('error', plugins.notify.onError(function(err) {
         return {
-          title: "compileSASS",
+          title: "compileSCSS",
           message: err.message
         }
     }))
-    .pipe(autoprefixer())
+    //.pipe(autoprefixer())
     .pipe(sass({
-      errorLogToConsole: true,
-      outputStyle: 'compressed'
+      errorLogToConsole: true
     }))
     .on('error', console.error.bind(console))
     .pipe(plugins.rename(styleFile))
